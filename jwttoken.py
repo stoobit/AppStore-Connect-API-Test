@@ -18,6 +18,10 @@ def get_token():
         "scope": [
             "GET /v1/apps",
             "GET /v1/apps/6673915598/analyticsReportRequests"
+
+            # Nur mit diesem zusätzlichen Eintrag funktioniert es nicht mehr,
+            # auch wenn der Request selbst nicht geändert wird.
+            #, "POST /v1/analyticsReportRequests"
         ]
     }
 
